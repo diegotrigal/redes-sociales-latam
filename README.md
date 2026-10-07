@@ -91,7 +91,7 @@ Ejemplo real (los archivos están en `pruebas/`): un caption hecho por IA para
 una comandera de restaurante inventada pasa de **21.5 MARCADO** a **38.8** con la
 limpieza automática; el resto (la tercia, el «No es solo X, es Y», las
 viñetas de ✅) lo señala para que lo reescriba una persona. Un caption escrito
-a mano del mismo tema saca **70.6**.
+como habla la gente, sobre el mismo tema, saca **70.6**.
 
 ```
 RANKING DE GANCHOS
