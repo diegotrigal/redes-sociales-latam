@@ -1,0 +1,17 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "redes-sociales-latam",
+  "description": "Skills de Instagram en español para México y Latinoamérica",
+  "owner": {
+    "name": "Diego Trigal",
+    "url": "https://soluciones-para-pymes.com"
+  },
+  "plugins": [
+    {
+      "name": "redes-sociales-latam",
+      "description": "Catorce skills en español para llevar una cuenta de Instagram en México y Latinoamérica, con humanizador, puntaje de ganchos por sílabas, revisión de captions con PROFECO y el paso a WhatsApp Business.",
+      "source": "./",
+      "category": "productivity"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "redes-sociales-latam",
+  "description": "Catorce skills en español para llevar una cuenta de Instagram en México y Latinoamérica: reels con 29 fórmulas de gancho y tiempos por sílabas, investigación de lo que funciona en tu giro, captions revisados (incluido lo que pide PROFECO), carruseles, historias, perfil, plan semanal con fechas comerciales, comentarios, respuestas, DMs, el paso a WhatsApp Business, reciclaje, auditoría y un humanizador que quita las muletillas de IA en español.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Diego Trigal",
+    "url": "https://soluciones-para-pymes.com"
+  },
+  "license": "MIT",
+  "keywords": ["instagram", "reels", "español", "latam", "mexico", "whatsapp", "humanizador", "marketing", "pymes"]
+}

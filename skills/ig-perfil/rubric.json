@@ -1,0 +1,79 @@
+{
+  "version": "1.0-es",
+  "total": 100,
+  "note": "Doce puntos. Califica con honestidad: una calificación generosa no le sirve a nadie. La mayoría de los perfiles quedan entre 30 y 49 la primera vez. El peso es a propósito: el campo de nombre, la primera línea de la bio y el contacto pesan más que la foto, porque es lo que procesa alguien que llegó de un reel antes de decidir si sigue o escribe. Esta versión está pensada para negocios en México y Latinoamérica, donde la venta se cierra casi siempre por WhatsApp o en el local, no en una página.",
+  "items": [
+    {
+      "id": "name_field",
+      "points": 12,
+      "full_marks": "El campo de nombre (30 caracteres, la línea en negritas, no el usuario) trae el nombre y lo que hace, en las palabras que la gente busca, con la ciudad si atiende en local: «La Espiga | Panadería Morelia». Instagram busca en este campo y casi todas las cuentas lo gastan en el puro nombre.",
+      "common_fail": "Solo el nombre, o el nombre con un emoji."
+    },
+    {
+      "id": "bio_first_line",
+      "points": 12,
+      "full_marks": "La primera línea dice para quién es y qué le resuelve, en sus palabras. No un puesto, no una lista de adjetivos, no tres emojis separados por barras.",
+      "common_fail": "«Calidad, servicio y sabor ✨» o «Emprendedora | Mamá | Amante del café»."
+    },
+    {
+      "id": "bio_body",
+      "points": 6,
+      "full_marks": "El resto de los 150 caracteres trae una prueba o una oferta concreta, y se lee como frase, no como lista con barras. Si atiende en local: horario o colonia.",
+      "common_fail": "Una sopa de palabras clave, o vacío."
+    },
+    {
+      "id": "contact_whatsapp",
+      "points": 12,
+      "full_marks": "El camino para comprar está a un toque: botón de WhatsApp (cuenta de WhatsApp Business vinculada) o un wa.me con mensaje ya escrito, y el mismo número en la bio. Si atiende en local, dirección con botón de «Cómo llegar» y la ficha de Google Maps al día. Quien escribe recibe respuesta el mismo día.",
+      "common_fail": "«Pedidos por DM» sin WhatsApp, un número sin lada, o un WhatsApp que tarda tres días en contestar."
+    },
+    {
+      "id": "pinned_three",
+      "points": 10,
+      "full_marks": "Tres publicaciones fijadas arriba del perfil, con tres trabajos distintos: la mejor prueba (reseña, antes y después, resultado), lo que vendes y cuánto cuesta o cómo pedirlo, y quién está detrás. No las tres con más vistas por accidente.",
+      "common_fail": "Nada fijado, así que arriba queda lo último que se subió."
+    },
+    {
+      "id": "link",
+      "points": 6,
+      "full_marks": "Un destino que cumple lo que la bio prometió: el catálogo, el WhatsApp con mensaje o la página de pedidos. Se permiten cinco ligas; más de dos ya es un menú, y un menú convierte peor que una puerta.",
+      "common_fail": "Un linktree con once opciones, o ninguna liga."
+    },
+    {
+      "id": "highlights",
+      "points": 8,
+      "full_marks": "De cuatro a seis historias destacadas con el nombre de lo que el cliente pregunta: Precios, Menú, Cómo pedir, Reseñas, Ubicación. Portadas parejas. Nada de hace más de un año al frente.",
+      "common_fail": "«Random», «Yo», «2023», o catorce destacadas sin orden."
+    },
+    {
+      "id": "grid_legibility",
+      "points": 8,
+      "full_marks": "Las primeras nueve portadas se entienden en miniatura y dicen de qué es la cuenta sin un solo toque. Las portadas de los reels se escogen, no se dejan en el cuadro uno.",
+      "common_fail": "Nueve portadas de una cara a media palabra sin texto, o nueve flyers iguales."
+    },
+    {
+      "id": "photo",
+      "points": 6,
+      "full_marks": "Para marca personal: la cara llena como el 60 % de un círculo de unos 40 píxeles. Para negocio: el logo legible en ese tamaño, sin letras chiquitas. Fondo que no compite.",
+      "common_fail": "Un logo con eslogan que en miniatura no se lee, o una foto de cuerpo entero."
+    },
+    {
+      "id": "handle",
+      "points": 6,
+      "full_marks": "Se lee, se dice en voz alta y es el mismo en Facebook, TikTok y WhatsApp. Sin guiones bajos apilados ni números en lugar de letras.",
+      "common_fail": "Un usuario que nadie puede escribir después de oírlo una vez («@la_espiga.mx_oficial2»)."
+    },
+    {
+      "id": "recent_activity",
+      "points": 8,
+      "full_marks": "Publicó en los últimos siete días y contestó los comentarios de la publicación más reciente. Una cuenta que publicó por última vez en marzo se ve cerrada, y en un negocio local eso se lee como «ya no abren».",
+      "common_fail": "Cinco semanas sin publicar, o un muro de comentarios sin contestar."
+    },
+    {
+      "id": "story_presence",
+      "points": 6,
+      "full_marks": "Una historia arriba ahorita, o casi todos los días. Es la diferencia entre un perfil y un negocio que está abierto.",
+      "common_fail": "Nunca hay círculo."
+    }
+  ]
+}
