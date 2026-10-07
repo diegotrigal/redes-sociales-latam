@@ -64,6 +64,8 @@ ASKS = [
                 r"\b(?:guárdalo|guárdala|guárdatelo|guárdatela)\b|\bguarda(?:lo)? para (?:después|luego|cuando)\b"), "guardar"),
     (re.compile(r"(?i)\b(?:compártelo|compártela|comparte (?:este|esto|con)|mándaselo a|pásaselo a)\b"), "compartir"),
     (re.compile(r"(?i)\b(?:síguenos|sígueme)\b"), "seguir"),
+    (re.compile(r"(?i)\betiqueta a\b"), "etiquetar"),
+    (re.compile(r"(?i)\b(?:conócelo|conócela|conoce cómo funciona|pruébalo|pruébala|visítanos) en\b"), "ir a un sitio"),
     (re.compile(r"(?i)\b(?:link|liga|enlace) en (?:la |mi |nuestra )?bio\b"), "link en bio"),
     (re.compile(r"(?i)\b(?:desliza|swipe|pásale) (?:a la|para|hacia)\b"), "deslizar"),
     (re.compile(r"(?i)\b(?:cuéntanos|cuéntame|dinos|dime)\b|¿(?:cuál|con cuál) (?:prefieres|eliges|te quedas)"), "contestar una pregunta"),
@@ -178,7 +180,8 @@ def analyse(text, cut=TRUNCATE, keywords=None):
         f"{len(emoji)} emojis, {density:.1f} por cada 100 caracteres"
         + (" - se lee como decoración" if density > 4 else ""))
 
-    prices = PRICE_RE.findall(stripped)
+    # «desde $0» no tiene IVA que aclarar
+    prices = [x for x in PRICE_RE.findall(stripped) if re.sub(r"[^\d]", "", x).strip("0")]
     if prices and not TAX_RE.search(stripped):
         add("PRECIO", "AVISO", f"das precio ({', '.join(prices[:2])}) sin decir si es el total. "
                                "PROFECO pide el precio total con impuestos: «IVA incluido» o el final")

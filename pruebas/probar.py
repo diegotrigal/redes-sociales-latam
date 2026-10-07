@@ -103,6 +103,13 @@ estados = {c["check"]: c["status"] for c in a["checks"]}
 check("precio con IVA y promo con vigencia pasan", estados.get("PRECIO") == "OK"
       and estados.get("PROMOCIÓN") == "OK", str(estados))
 
+a = cap.analyse("Él es Ricky.\nEtiqueta a tu Ricky.")
+check("«Etiqueta a…» cuenta como pedido", a["asks"] == ["etiquetar"], str(a["asks"]))
+a = cap.analyse("Empiezas hoy, desde $0 al mes. Conócelo en mesamatic.app.")
+estados = {c["check"]: c["status"] for c in a["checks"]}
+check("«desde $0» no pide IVA y «Conócelo en» es pedido", "PRECIO" not in estados
+      and a["asks"] == ["ir a un sitio"], str(estados) + str(a["asks"]))
+
 print("\nig-viral")
 sw = cargar("ig-viral", "swipe")
 check("lee «4.2k», «12 mil» y «1,800»", (sw._num("4.2k"), sw._num("12 mil"), sw._num("1,800"))
